@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script&family=Fredoka+One&family=Roboto&display=swap");
+@media screen and (min-width: 768px) {
+  main {
+    width: 300px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka One";
+    color: #25007A;
+  }
+
+  a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+  }
+
+  nav {
+    color: #25007A;
+    height: 10vh;
+    padding: 20% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #logo {
+    font-family: "Bungee", sans-serif;
+    font-size: 100px;
+    color: #25007A;
+  }
+
+  .button {
+    display: block;
+    width: 300px;
+    height: auto;
+    border: 2px solid #25007A;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    color: #25007A;
+    font-size: 50px;
+    font-family: "Fredoka One";
+  }
+
+  h1 {
+    text-align: center;
+    color: #31CBE5;
+    font-size: 70px;
+    font-style: none;
+    padding-bottom: 10%;
+  }
+}
