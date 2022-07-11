@@ -1,1 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+$font-header:"Bungee", sans-serif;
+$font-body:"Fredoka One";
+
+$color-primary:#463BB5;
+$color-secondary:#31CBE5;
+$color-white:#FBFCC9;
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:$font-body;
+    color:#463BB5;
+}
+
+a:link,
+a:visited {
+    text-decoration:none;
+}
+
+nav {
+    color:$color-primary;
+    height:10vh;
+    padding:0 30%;
+    display:flex;
+    justify-content:space-between;
+}
+
+#logo {
+    font-family:$font-header;
+    font-size:45px;
+    color:#463BB5;
+}
+
+.button {
+    display:block;
+    width: 100px;
+    background-color:$color-white;
+    text-align:center;
+    padding:10px 20px;
+    border-radius:10px;
+    color:$color-primary;
+}
