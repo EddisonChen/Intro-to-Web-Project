@@ -6,7 +6,7 @@ $font-body:"Fredoka One";
 
 $color-primary:#463BB5;
 $color-secondary:#31CBE5;
-$color-white:#FBFCC9;
+$color-white:#FAFBCD;
 
 * {
     margin:0;
@@ -17,7 +17,8 @@ $color-white:#FBFCC9;
 }
 
 a:link,
-a:visited {
+a:visited,
+a:hover {
     text-decoration:none;
 }
 
@@ -27,20 +28,15 @@ nav {
     padding:0 30%;
     display:flex;
     justify-content:space-between;
+    align-items: center;
 }
 
 #logo {
     font-family:$font-header;
-    font-size:45px;
-    color:#463BB5;
+    font-size:100px;
+    color:#463BB5;s
 }
 
 .button {
-    display:block;
-    width: 100px;
-    background-color:$color-white;
-    text-align:center;
-    padding:10px 20px;
-    border-radius:10px;
-    color:$color-primary;
+
 }
