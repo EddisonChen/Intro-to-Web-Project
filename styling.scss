@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script&family=Fredoka+One&family=Roboto&display=swap');
+
+@media screen and (min-width:768px) {
+    main {
+      width:300px;
+    }
 
 $font-header:"Bungee", sans-serif;
 $font-body:"Fredoka One";
 
-$color-primary:#463BB5;
+$color-primary:#25007A;
 $color-secondary:#31CBE5;
 $color-white:#FAFBCD;
 
@@ -13,7 +17,7 @@ $color-white:#FAFBCD;
     padding:0;
     box-sizing:border-box;
     font-family:$font-body;
-    color:#463BB5;
+    color:$color-primary;
 }
 
 a:link,
@@ -25,7 +29,7 @@ a:hover {
 nav {
     color:$color-primary;
     height:10vh;
-    padding:0 30%;
+    padding:20% 3%;
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -34,9 +38,28 @@ nav {
 #logo {
     font-family:$font-header;
     font-size:100px;
-    color:#463BB5;s
+    color:$color-primary;
 }
 
 .button {
+    display:block;
+    width:300px;
+    height:auto;
+    border:2px solid $color-primary;
+    border-radius:10px;
+    text-align:center;
+    padding:30px;
+    background-color: white;
+    color:$color-primary;
+    font-size: 50px;
+    font-family:$font-body;
+}
 
+h1 {
+    text-align: center;
+    color:$color-secondary;
+    font-size: 70px;
+    font-style: none;
+    padding-bottom: 10%;
+}
 }
