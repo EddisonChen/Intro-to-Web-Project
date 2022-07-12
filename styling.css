@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script&family=Fredoka+One&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bungee&family=Dancing+Script&family=Fredoka+One&family=Roboto&display=swap");
 @media screen and (min-width: 768px) {
   main {
     width: 300px;
@@ -33,7 +33,7 @@ a:hover {
     color: #25007A;
   }
 
-  .button {
+  #button {
     display: block;
     width: 300px;
     height: auto;
@@ -53,5 +53,57 @@ a:hover {
     font-size: 70px;
     font-style: none;
     padding-bottom: 10%;
+  }
+
+  #main-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 60px;
+    font-family: "Balsamiq Sans";
+    font-weight: bold;
+  }
+
+  h2, h3, h4 {
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+  }
+
+  h3 {
+    color: #31CBE5;
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 45px;
+    font-family: "Balsamiq Sans";
+  }
+
+  h5 {
+    font-size: 70px;
+    text-align: center;
+    padding: 100px;
+    font-family: "Balsamiq Sans";
+  }
+
+  #reference-link {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    border: 2px solid #25007A;
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5%;
+    background-color: #25007A;
+  }
+
+  p {
+    font-family: "Balsamiq Sans";
+    font-size: 65px;
   }
 }

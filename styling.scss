@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script&family=Fredoka+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bungee&family=Dancing+Script&family=Fredoka+One&family=Roboto&display=swap');
 
 @media screen and (min-width:768px) {
     main {
@@ -7,6 +7,7 @@
 
 $font-header:"Bungee", sans-serif;
 $font-body:"Fredoka One";
+$font-special: "Balsamiq Sans";
 
 $color-primary:#25007A;
 $color-secondary:#31CBE5;
@@ -41,7 +42,7 @@ nav {
     color:$color-primary;
 }
 
-.button {
+#button {
     display:block;
     width:300px;
     height:auto;
@@ -62,4 +63,57 @@ h1 {
     font-style: none;
     padding-bottom: 10%;
 }
+
+#main-image {
+    display:flex;
+    justify-content:center;
+}
+
+h2{
+    font-size: 60px;
+    font-family:$font-special;
+    font-weight:bold;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+}
+
+h3 {
+    color:$color-secondary;
+    font-size:50px;
+}
+
+h4 {
+    font-size: 45px;
+    font-family:$font-special;
+}
+
+h5 {
+    font-size:70px;
+    text-align:center;
+    padding:100px;
+    font-family: $font-special;
+}
+#reference-link {
+    display:flex;
+    justify-content: center;
+    font-size:50px;
+    color:white;
+    border:2px solid $color-primary;
+    padding:30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius:5%;
+    background-color: $color-primary;
+}
+
+p {
+    font-family:$font-special;
+    font-size: 65px;
+    
+}
+
 }
