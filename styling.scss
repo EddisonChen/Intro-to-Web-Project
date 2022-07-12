@@ -120,11 +120,13 @@ p {
 
 .container {
     display:flex;
+    justify-content: center;
     align-items: center;
     margin:70px;
 
     img {
         max-width: 800px;
+        margin: 50px;
     }
 }
 

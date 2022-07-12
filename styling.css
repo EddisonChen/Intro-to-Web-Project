@@ -113,11 +113,13 @@ a:hover {
 
   .container {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 70px;
   }
   .container img {
     max-width: 800px;
+    margin: 50px;
   }
 
   #end-reference-link {
