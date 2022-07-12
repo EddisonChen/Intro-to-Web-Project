@@ -11,7 +11,7 @@ $font-special: "Balsamiq Sans";
 
 $color-primary:#25007A;
 $color-secondary:#31CBE5;
-$color-white:#FAFBCD;
+$color-yellow:#FEFFA6;
 
 * {
     margin:0;
@@ -110,10 +110,44 @@ h5 {
     background-color: $color-primary;
 }
 
+em {
+    font-weight: lighter;
+}
 p {
     font-family:$font-special;
-    font-size: 65px;
-    
+    font-size: 55px;
 }
 
+.container {
+    display:flex;
+    align-items: center;
+    margin:70px;
+
+    img {
+        max-width: 800px;
+    }
+}
+
+
+#end-reference-link {
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+    color:white;
+    border:2px solid $color-primary;
+    padding:30px;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom:150px;
+    border-radius:5%;
+    background-color: $color-primary;
+    text-align: center;
+}
+
+footer {
+    font-size: 50px;
+    text-align: center;
+    background-color: $color-yellow;
+    padding:80px;
+}
 }
